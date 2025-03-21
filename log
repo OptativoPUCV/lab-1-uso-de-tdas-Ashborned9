@@ -32,3 +32,16 @@ Fri, Mar 21, 2025 11:42:53 AM:
  tests:  4|1
 total_score: 50/70
 14fb5a1
+Fri, Mar 21, 2025  7:20:19 PM: 
+ exercises.c | 23 +++++++++++++++++++++++
+ 1 file changed, 23 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function 'parentesisBalanceados':
+exercises.c:130:23: error: expected expression before 'List'
+          if (get_size(List *)P == 0) {
+                       ^~~~
+exercises.c:130:30: error: expected ')' before 'P'
+          if (get_size(List *)P == 0) {
+                              ^
+Compilation failed
+be2dbff
