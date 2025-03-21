@@ -140,8 +140,9 @@ int parentesisBalanceados(char *cadena) {
       }
       if (get_size((List *)P) == 0) {
          return 1;
+      }
    }
- 
    return 0;
 }
+
 
